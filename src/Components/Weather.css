@@ -1,0 +1,23 @@
+.container {
+    margin-top: 1.2rem;
+  }
+.Card_css{
+    border:solid 3px rgba(221, 221, 14, 0.897);
+    margin-left: 190px;
+    margin-right: 170px;
+    margin-bottom: 50px;
+    border-right-color: yellowgreen;
+    border-top-color: tomato;
+    border-bottom-color: brown;
+}
+  
+  .container input,
+  .container ::-webkit-input-placeholder {
+    color: white !important;
+  }
+  .container input:focus {
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 2px solid tomato;
+  }
