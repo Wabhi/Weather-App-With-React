@@ -95,7 +95,7 @@ class App extends Component {
     //console.log(city)
     //console.log(country)
     if (city && country) {
-      const api_call = await axios(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${APIkey}`)
+      const api_call = await axios(`https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${APIkey}`)
       const response = api_call.data
       console.log(response)
       this.setState({
